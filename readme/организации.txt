@@ -1,0 +1,24 @@
+0 - None
+1 - Government
+2 - FBI
+3 - Police
+4 - Army
+5 - Hospital
+6 - SMI
+7 - DriveSchool
+8 - Mafia1
+9 - Mafia2
+10 - 
+11 -
+12 - 
+
+
+0 - None
+1 - Bus
+2 - Taxi
+3 - Mechanic
+4 - Trasher
+5 - Delivery
+6 - Truck
+7 - Collector
+8 - Lawyer

@@ -1,0 +1,236 @@
+
+
+	И	Г	Р	О	к
+
+
+	1 таблица
+	ОСНОВНАЯ ИНФОРМАЦИЯ
+int ID
+str NickName[24]
+str Password[32]
+str RegIP[16]
+str Mail[319]
+//int Admin
+int EXP
+int Cash
+bool Sex // 0 - male 1- female
+bool ColorSkin // 0 - negr 1 - light
+int Skin
+int SpawnPlace // 0 - home 1 - org 2 - airport
+float:Heal
+float:Armour
+float:Satiety
+bool Online // 0 - no 1 - yes
+
+
+	2 таблица
+	АДМИН
+int ID
+str Password[32]
+int LVL
+int Rating
+int CountBan
+int CountWarn
+int CountJail
+int CountMute
+int CountKick
+int CountReport
+
+
+	3 таблица
+	ОРГАНИЗАЦИЯ
+int ID
+int OrgID // 0 - None 1 - govern 2 - fbi ..
+str OrgName[24]
+int OrgRank // 0 - none
+str OrgRankName[24]
+int OrgSkin
+int OrgReprimands
+
+
+	4 таблица
+	РАБОТА
+int ID
+int JobID // 0 - none
+str JobName[24]
+
+
+	5 таблица
+	СЕМЬЯ
+int ID
+int IDfam
+int FamRank
+int
+
+	6 таблица
+	БИЗНЕС
+
+
+	7 таблица
+	ДОМ
+
+
+	8 таблица
+	ОТЕЛЬ
+
+
+	9 таблица
+	ТЕЛЕФОН
+int ID
+bool Phone // 0 - hasnt 1 - has
+str PhoneNumber[4-8]
+int Balance
+
+
+	10 таблица
+	ТРАНСПОРТ
+int ID
+int IDтр
+int TransportID
+int 
+
+
+	11 таблица
+	ИНВЕНТАРЬ
+
+
+	12 таблица
+	НАКАЗАНИЯ
+int ID
+int Ban // days
+int Warns // days
+int Jail // minutes
+int Mute // minutes
+int BanAll // days
+int WarnsAll // days
+int JailAll // minutes
+int MuteAll // minutes
+
+
+	13 таблица
+	СКИЛЛЫ и НАВЫКИ
+int ID
+int SkillSDPistol
+int SkillDesertEagle
+int SkillM4A1
+int SkillAK47
+int SkillShotGun
+int SkillMP5
+int SkillUZI
+int SkillSniper
+int StyleNormal
+int StyleBoxing // 0/1000
+int StyleKungfu // 0/1000
+int Kneehead // 0/1000
+int Grabkick // 0/1000
+int Elbow // 0/1000
+
+
+	14 таблица
+	БАНК
+int ID
+bool:BankHaveCard // 0 - no 1 - yes
+str BankPassword[16]
+int BankCash
+int BankDeposit
+int BankCharity
+
+
+	15 таблица
+	НАСТРОЙКИ
+
+
+	16 таблица
+	ДРУГОЕ
+
+
+	17 таблица
+	ЗАМЕТКИ
+int ID
+str Note1[256] // standart: пусто
+str Note2[256]
+str Note3[256]
+str Note4[256]
+str Note5[256]
+str Note6[256]
+str Note7[256]
+str Note8[256]
+str Note9[256]
+str Note10[256]
+
+
+	Д	О	М	А
+
+
+
+
+
+
+
+
+
+
+
+	Б	И	З	Н	Е	С	С	Ы
+
+int IDb
+int IDp
+int Type // 0 - 24/7 1 - burger
+int Cost
+int Paying // per hour
+int DaysPaid
+
+float PosX
+float PosY
+float PosZ
+
+int Products
+int ProductsWarehouse
+int ProductPrice
+
+int Balance
+int Profit
+int Tax
+
+str Name[128]
+int IDinterior
+int PriceForEnter
+int IDfamilyForSale
+int IDmafia
+str District[32]
+bool Door // 0 - open 1 - close
+
+
+
+
+
+
+
+
+	С	Е	М	Ь	И
+
+
+
+
+
+
+
+	Т	Р	А	Н	С	П	О	Р	Т
+int IDveh
+int IDp
+int IDmodel
+int Fuel
+int Millage
+
+
+
+
+
+	О	Т	Е	Л	И
+
+
+
+
+
+
+

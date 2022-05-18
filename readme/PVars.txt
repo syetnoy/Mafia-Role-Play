@@ -1,0 +1,12 @@
+adm_re - /re /reoff
+adm_veh - /veh /delveh
+adm_freeze - /freeze /unfreeze
+
+fbi_key - /givepass /takepass 
+
+mafia_tie - /tie /untie
+mafia_gag - /gag /ungag
+
+pass - 
+mobile -
+
